@@ -15,7 +15,7 @@
 
     .StyleA {
         top:0%;
-        background-image: url('../../../Content/photos/Bitcamp2018.jpg');
+        background-image: url('../../Content/photos/Bitcamp2018.jpg');
         background-size:cover;
         background-position-x:15%;
         animation: pano 30s infinite;
@@ -126,40 +126,65 @@
     }
 
         #ImgA {
+        box-shadow: 15px 15px 30px 10px rgba(0,0,0,0.75);
         border: 1px solid black;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
         height:80%;
-        left:5%;
+        left:2.5%;
         position: absolute;
         top:10%;
         width:25%;
         }
 
+            #ImgA:hover { 
+            filter: brightness(115%); 
+            }
+
         #ImgB {
+            box-shadow: 15px 15px 30px 10px rgba(0,0,0,0.75);
             border: 1px solid black;
             height:35%;
-            left:35%;
+            left:30%;
             position: absolute;
             top:10%;
-            width:25%;
+            width:27.5%;
         }
+
+                #ImgB:hover { 
+                filter: brightness(115%); 
+                }
 
         #ImgC {
+            box-shadow: 15px 15px 30px 10px rgba(0,0,0,0.75);
             border: 1px solid black;
             height:40%;
-            left:35%;
+            left:30%;
             position: absolute;
             top:50%;
-            width:25%;
+            width:27.5%;
         }
 
+            #ImgC:hover { 
+            filter: brightness(115%); 
+            }
+
         #ImgD {
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: 15px 15px 30px 10px rgba(0,0,0,0.75);
+            background-position-x: right;
             border: 1px solid black;
             height:80%;
-            left:65%;
+            left:60%;
             position: absolute;
             top:10%;
-            width:30%;
+            width:35%;
         }
+
+            #ImgD:hover { 
+            filter: brightness(115%); 
+            }
 
 
     .StyleD {
